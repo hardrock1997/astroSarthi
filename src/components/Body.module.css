@@ -55,3 +55,7 @@
    border-radius: 5%;
    background-color: #F72;
 }
+
+button:hover {
+    cursor: pointer;
+}
