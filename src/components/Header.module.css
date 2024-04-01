@@ -34,7 +34,6 @@
     width: 100px;
     border-radius: 10px;
     background-color:yellow;
-    border: none;
     font-size: large;
     
 }
@@ -43,7 +42,12 @@
     width: 100px;
     border-radius: 10px;
     background-color: yellow;
-    border: none;
+    font-size: large;
+}
+.joinAsAstrologer {
+    width: 160px;
+    border-radius: 10px;
+    background-color: yellow;
     font-size: large;
 }
 .signUp:hover {
@@ -57,4 +61,13 @@
 }
 .logoText {
     cursor: pointer;
+}
+
+.signUpModal {
+    display: flex;
+    flex-direction: column;
+}
+.userLoginModal {
+    display: flex;
+    flex-direction: column;  
 }

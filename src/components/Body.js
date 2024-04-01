@@ -4,6 +4,7 @@ import Carousel from './Carousel';
 import { useState } from 'react';
 import {reports} from '../utils/reports.js';
 import {services} from '../utils/services.js';
+import { Link } from 'react-router-dom';
 export default function Body() {
     const [cards,setCards]=useState(false);
     return (
@@ -15,7 +16,11 @@ export default function Body() {
             <h1>Acharya Mridul Mishra</h1>
             <h3>Recommended by many users</h3>
         </div>
+        <div>
+        <Link to="/testimonials"><button className={styles.testimonials}>Our Testimonials</button></Link>
         </div>
+        </div>
+       
         <div className={styles.container}></div>
         <div className={styles.services}>
             <h2>Our Services include Consultaion regarding the following:</h2>
